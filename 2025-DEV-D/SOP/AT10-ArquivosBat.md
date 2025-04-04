@@ -1,6 +1,7 @@
 # 📘 04-04 | AT10 - Automação de tarefas com .bat e Agendador de Tarefas (Windows 11)
 
 **📁 Pasta de trabalho:** `D:\Temp\DEV-1D\SOP`
+**🗒️Todas as atividades serão feitas no bloco de notas***
 
 ---
 
