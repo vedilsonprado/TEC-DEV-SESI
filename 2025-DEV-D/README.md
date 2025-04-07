@@ -1,6 +1,7 @@
 # 👨🏻‍💻 Técnico em Desenvolvimento de Sistemas - TURMA D 2025
 
 ## [Plano de Curso](https://github.com/wellifabio/sesi2024/blob/main/PlanoCurso.pdf)
+
 ## Semestres
 - [1º Semestre](./2025-DEV-D/1ºSEM/)
     - [Sistemas Operacionais (90 horas/120 aulas)](./1ºSEM/SOP/)
@@ -15,6 +16,7 @@
     - [Internet das Coisas (75 horas/100 aulas)](./4ºSEM/IOT/)
     - [Testes de Software (45 horas/60 aulas)](./4ºSEM/TSOF/)
     - [Projetos de Software 03 (45 horas/60 aulas)](./4ºSEM/PROJ3/)
+
 
 ## 👨🏻‍🏫 Competências transversais - Cursos autoinstitucionais
 - 1 - Acessar o portal **[EAD](https://ead.sp.senai.br)**
