@@ -4,6 +4,8 @@
 
 **👨🏻‍🏫 Enviar os arquivos no Classroom**
 
+**Faça
+
 ## ATIVIDADE 1 — Rede Local Simples com 1 Switch (Classe C)
 ### **Objetivo:** Criar uma rede local com um switch e 4 computadores, todos pertencentes à mesma rede Classe C.
 
@@ -22,6 +24,11 @@ Todos os PCs devem se comunicar entre si. Efetue testes de ping.
 ### **Objetivo:** Montar uma rede com 3 switches independentes. Cada switch terá 4 computadores configurados em uma classe de IP diferente.
 
 Regras:
+
+**Use a Ferramenta Draw Rectangle para delimitar o espaço decada rede. Use o nome da Classe e informe a rede da area. 
+Exemplo:
+Classe A
+Rede: 10.0.0.0**
 
 - Switch 1 — Classe A:
   - 4 Computadores conectados ao switch com cabo direto.
@@ -47,6 +54,10 @@ Os switchs devem estar conectados entre si, para isso conecte-os utilizando um c
 ## ATIVIDADE 3 — Roteador com 2 Redes (Classes B e C)
 ### **Objetivo:** Utilizar 1 roteador 2811 e 2 switches. Cada switch terá 4 computadores, mas em redes diferentes (Classe B e Classe C). O roteador fará a interligação entre as redes.
 
+**Use a Ferramenta Draw Rectangle para delimitar o espaço decada rede. Use o nome da Classe e informe a rede da area. 
+Exemplo:
+Classe A
+Rede: 10.0.0.0**
 
 Regras:
 
