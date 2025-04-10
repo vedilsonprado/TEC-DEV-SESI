@@ -1,6 +1,6 @@
 # 👨🏻‍💻 Técnico em Desenvolvimento de Sistemas - TURMA D 2025
 
-## [Plano de Curso](https://github.com/wellifabio/sesi2024/blob/main/PlanoCurso.pdf)
+## [Plano de Curso](https://github.com/PlanoCurso.pdf)
 
 ## Semestres
 - [1º Semestre](./2025-DEV-D/1ºSEM/)
