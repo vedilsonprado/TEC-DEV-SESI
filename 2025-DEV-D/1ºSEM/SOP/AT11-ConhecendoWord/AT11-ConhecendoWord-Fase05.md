@@ -140,9 +140,7 @@
 - Escreva um texto descritivo
 
 ### Etapa 18 — Inserir Capa Simples
-- Clique em Inserir
-- Clique em Capa
-- Escolha um modelo simples
+- Adicione uma qubra de pagina antes da primeira pagina
 - Preencha com:
   - Nome da Escola
   - Nome do Aluno
