@@ -159,5 +159,5 @@
 - Clique em Salvar como.
 - Escolha Este PC ou Procurar.
 - Escolha uma pasta (`D:\Temp\DEV-1D\SOP`).
-- Escreva o nome do arquivo: WordFase03.docx.
+- Escreva o nome do arquivo: WordFase05.docx.
 - Clique em Salvar.

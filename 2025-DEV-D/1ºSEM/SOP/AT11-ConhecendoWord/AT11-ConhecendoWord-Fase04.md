@@ -140,6 +140,6 @@
 ### Etapa 19 — Salvar como PDF
 - Clique em Arquivo.
 - Clique em Salvar Como.
-- Escolha a pasta.
-- No campo Tipo escolha PDF.
+- Escolha uma pasta (`D:\Temp\DEV-1D\SOP`).
+- No campo Tipo escolha PDF. WordFase0.pdf
 - Clique em Salvar.
