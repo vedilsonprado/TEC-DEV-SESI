@@ -10,6 +10,21 @@
 ### **Objetivo: Aprender a colocar imagens, tabelas, listas, cabeçalho, rodapé, numeração de página e organizar melhor o conteúdo.**
 `Aqui o documento começa a ficar com "cara de trabalho acadêmico" ou de "relatório de empresa".`
 
+### Etapa 0 — Criar um novo documento
+- Abra o Word (como já aprendemos na Fase 1).
+
+- Clique em Arquivo no canto superior esquerdo.
+
+- Clique em Novo.
+
+- Selecione Documento em branco.
+
+- Digite assim no documento: `=rand(5)`
+
+- Depois aperte Enter.
+
+- Pronto! O Word vai gerar um texto falso com 5 parágrafos! `(Serve só pra treinar formatação).`
+
 ### Etapa 1 — Inserindo uma imagem no documento
 - Clique na aba Inserir (lá em cima no menu do Word).
 - Clique no botão Imagens.

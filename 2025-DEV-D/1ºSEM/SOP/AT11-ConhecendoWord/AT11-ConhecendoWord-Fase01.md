@@ -9,22 +9,6 @@
 ## 📝 FASE 1 — Introdução ao Word e Formatações Básicas
 ### ** Objetivo: Conhecer o Word, entender o ambiente do programa, escrever textos simples e fazer formatações básicas.**
 
-### Etapa 0 — Criar um novo documento
-- Abra o Word (como já aprendemos na Fase 1).
-
-- Clique em Arquivo no canto superior esquerdo.
-
-- Clique em Novo.
-
-- Selecione Documento em branco.
-
-- Digite assim no documento: `=rand(5)`
-
-- Depois aperte Enter.
-
-- Pronto! O Word vai gerar um texto falso com 5 parágrafos! `(Serve só pra treinar formatação).`
-
-
 ### Etapa 1 — Abrindo o Word
 - Clique no botão Iniciar (ícone do Windows no canto inferior esquerdo da tela).
 - Digite Word na busca.
@@ -76,9 +60,9 @@ O Word vai gerar um texto de exemplo! Incrível pra treinar formatação.
 - Selecione uma parte do texto (arrastando o mouse sobre ele).
 
 - Depois clique na aba Página Inicial:
-  - B = Negrito
+  - N = Negrito
   - I = Itálico
-  - U = Sublinhado
+  - S = Sublinhado
 
 Exemplo:
 
@@ -126,7 +110,7 @@ Meu *primeiro* documento no **Word**!
 - Escreva uma lista.
 
   Exemplo:
-````
+````markdown
 Item 1
 Item 2
 Item 3
@@ -184,12 +168,6 @@ Aperte Enter.
 O Word cria uma linha horizontal automática.
 
 ### Etapa 19 — Salvando novamente
-- Clique em Arquivo (no canto superior esquerdo).
-- Clique em Salvar como.
-- Escolha Este PC ou Procurar.
-- Escolha uma pasta (Exemplo: Documentos).
-
-### Etapa 5 — Salvando o documento
 - Clique em Arquivo (no canto superior esquerdo).
 - Clique em Salvar como.
 - Escolha Este PC ou Procurar.
