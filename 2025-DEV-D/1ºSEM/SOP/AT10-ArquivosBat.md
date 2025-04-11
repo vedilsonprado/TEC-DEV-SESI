@@ -134,6 +134,7 @@ pause
 ```bat
 @echo off
 echo Hoje foi um bom dia de aula! >> D:\Temp\DEV-1D\SOP\diario.txt
+pause
 ```
 - Salvar como: `atividade12_diario_automatico.bat`
 - Agendar para **17:00** todos os dias.
