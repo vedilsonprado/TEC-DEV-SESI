@@ -27,7 +27,7 @@
   - IP do Roteador: 192.168.1.1
   - IPs dos PCs: 192.168.1.10 ~ 192.168.1.12
 - Endereçamento da conexão serial:
-  - 10.0.0.0/30
+  - 10.0.0.0
   - Roteador 1: 10.0.0.1
   - Roteador 2: 10.0.0.2
 
@@ -41,14 +41,14 @@
 
 **Regras:**
 - 3 Roteadores Cisco 4331 (com placa NIM-2T)
-- Conexão serial:
-  - R1 ↔ R2: 10.0.0.0/30
-  - R2 ↔ R3: 10.0.0.4/30
+- Conexão serial entre os roteadores:
+  - R1: 10.0.0.1 ↔ R2: 10.0.0.2
+  - R2: 10.0.0.3 ↔ R3: 10.0.0.4
 - Roteador 1 — Classe A
-  - Rede: 10.0.0.0
+  - Rede: 20.0.0.0
   - Máscara: 255.0.0.0
-  - IP do Roteador: 10.0.0.1
-  - 3 PCs: 10.0.0.10 ~ 10.0.0.12
+  - IP do Roteador: 20.0.0.1
+  - 3 PCs: 20.0.0.10 ~ 20.0.0.12
 - Roteador 2 — Classe B
   - Rede: 172.16.0.0
   - Máscara: 255.255.0.0
@@ -59,7 +59,8 @@
   - Máscara: 255.255.255.0
   - IP do Roteador: 192.168.1.1
   - 3 PCs: 192.168.1.10 ~ 192.168.1.12
-** 🧪 Configurar rotas estáticas e testar a comunicação entre todas as redes. **
+
+**🧪 Configurar rotas estáticas e testar a comunicação entre todas as redes.**
 #### 💾 Salvar como: `Atividade05.pkt`
 
 ## ATIVIDADE 6 — Quatro Roteadores com Redes Mistas (Classes A, B, C e Sub-redes)
