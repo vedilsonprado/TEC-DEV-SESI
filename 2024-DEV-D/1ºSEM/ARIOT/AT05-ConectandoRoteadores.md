@@ -43,12 +43,12 @@
 - 3 Roteadores Cisco 4331 (com placa NIM-2T)
 - Conexão serial entre os roteadores:
   - R1: 10.0.0.1 ↔ R2: 10.0.0.2
-  - R2: 10.0.0.3 ↔ R3: 10.0.0.4
+  - R2: 20.0.0.1 ↔ R3: 20.0.0.2
 - Roteador 1 — Classe A
-  - Rede: 20.0.0.0
+  - Rede: 30.0.0.0
   - Máscara: 255.0.0.0
-  - IP do Roteador: 20.0.0.1
-  - 3 PCs: 20.0.0.10 ~ 20.0.0.12
+  - IP do Roteador: 30.0.0.1
+  - 3 PCs: 30.0.0.10 ~ 30.0.0.12
 - Roteador 2 — Classe B
   - Rede: 172.16.0.0
   - Máscara: 255.255.0.0
