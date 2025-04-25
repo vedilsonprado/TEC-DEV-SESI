@@ -1,4 +1,4 @@
-# 📘 04-25 | TEMA 1 – MALWARE
+# 📘 04-25 | 🎯 TEMA 7 – MAN-IN-THE-MIDDLE (MitM)
 
 **📁 Pasta de trabalho:** `D:\Temp\DEV-1D\SOP`
 
@@ -12,33 +12,30 @@
 
 
 ## 📄 Enunciado da Atividade:
-**Caso real a ser abordado:** WannaCry (2017) – Um dos maiores ataques de ransomware da história, que paralisou hospitais, empresas e órgãos públicos em diversos países.
+**Caso real a ser abordado:** Superfish da Lenovo (2015) – Um incidente envolvendo um software preinstalado chamado Superfish, que permitiu um ataque Man-in-the-Middle (MitM), interceptando as comunicações seguras dos usuários e expondo dados privados sem o consentimento dos mesmos.
 
-Vocês são um grupo de repórteres e especialistas de um telejornal que está cobrindo uma crise cibernética global causada por um malware chamado WannaCry. O ataque acabou de acontecer, e o mundo quer respostas.
+O grupo vai assumir papéis de investigadores cibernéticos e explorar o caso do Superfish, explicando como o ataque Man-in-the-Middle foi realizado e como isso afetou a segurança de dados dos usuários de laptops Lenovo. A apresentação deve ser feita como uma investigação detalhada do caso, incluindo uma análise técnica do ataque, suas consequências e as medidas corretivas tomadas pela Lenovo e pela comunidade de segurança cibernética.
 
-Sua missão é apresentar uma reportagem especial ao vivo, com dramatizações, entrevistas e dados técnicos, explicando:
+O objetivo é explicar o conceito de Man-in-the-Middle (MitM) e como o Superfish facilitou esse tipo de ataque, além de discutir as falhas de segurança que permitiram que o ataque fosse realizado e as possíveis soluções para prevenir falhas semelhantes no futuro.
 
 ### 🎯 Objetivos do grupo:
-1. O que é um Malware e como ele funciona, com destaque para o tipo Ransomware.
-2. Contar como o WannaCry atacou o mundo e o impacto que causou.
-3. Apontar as vulnerabilidades exploradas e como isso poderia ter sido evitado.
-4. Relatar as intervenções feitas após o ataque e como as organizações se protegeram depois.
-5. Finalizar com boas práticas de prevenção e orientações ao público.
-
+1. Explicar o conceito de Man-in-the-Middle (MitM) e como esse tipo de ataque pode comprometer a comunicação segura entre usuários e servidores.
+2. Apresentar o caso Superfish da Lenovo, detalhando como o software foi preinstalado nos laptops e como ele facilitou o ataque MitM.
+3. Discutir as falhas de segurança que permitiram o ataque e o impacto que teve sobre os usuários da Lenovo.
+4. Propor estratégias de prevenção para evitar futuros ataques MitM, como o uso de criptografia mais robusta e práticas de segurança no desenvolvimento de software.
 
 ### 🧩 Funções sugeridas (1 aluno por papel):
-- Âncora do Jornal: Abre e fecha a reportagem, faz transições entre as falas.
-- Repórter de Campo: Relata diretamente de um “hospital afetado”.
-- Especialista em Cibersegurança: Explica tecnicamente o que é um malware e o funcionamento do WannaCry.
-- Porta-voz da Microsoft: Fala das vulnerabilidades do Windows, o patch lançado e as medidas de prevenção.
+- Investigador Principal: Conduz a investigação, apresenta a introdução sobre o caso Superfish e explica o conceito de Man-in-the-Middle.
+- Especialista em Ataques MitM: Explica como o ataque MitM funciona, detalha como o Superfish permitiu que a comunicação dos usuários fosse interceptada e quais foram as falhas de segurança que facilitaram o ataque.
+- Especialista em Consequências e Impacto: Fala sobre o impacto do ataque para os usuários, como ele afetou a privacidade e segurança de dados, e como as empresas reagiram ao incidente.
+- Especialista em Prevenção: Propõe soluções para evitar ataques MitM, explicando a importância da criptografia, da verificação de certificados e da segurança em software pré-instalado.
 
 ### ❓ Perguntas norteadoras que devem aparecer no roteiro:
-- O que é exatamente um malware? Quais tipos existem?
-- Como o WannaCry se espalhou tão rápido?
-- Que falha permitiu a infecção de tantos sistemas?
-- O que as organizações fizeram imediatamente após o ataque?
-- Que atitudes poderiam ter evitado a propagação?
-- Como o público pode se proteger de ataques semelhantes?
+- O que é um ataque Man-in-the-Middle (MitM) e como ele afeta a segurança das comunicações?
+- Como o Superfish foi instalado nos laptops da Lenovo e como facilitou o ataque MitM?
+- Quais foram as falhas de segurança que permitiram o Superfish funcionar dessa maneira?
+- Qual foi o impacto desse ataque para os usuários da Lenovo e para a reputação da empresa?
+- O que poderia ter sido feito para evitar que o Superfish fosse instalado nos dispositivos? Como as empresas podem proteger melhor seus usuários contra ataques MitM?
 
 ### 🎭 Formato da apresentação (estilo Jornal Urgente):
 - Tempo sugerido: 6 a 8 minutos

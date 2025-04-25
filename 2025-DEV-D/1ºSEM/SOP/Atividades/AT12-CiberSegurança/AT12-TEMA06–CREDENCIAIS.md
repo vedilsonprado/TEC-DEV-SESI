@@ -1,4 +1,4 @@
-# 📘 04-25 | TEMA 1 – MALWARE
+# 📘 04-25 | 🎯 TEMA 6 – CREDENCIAIS
 
 **📁 Pasta de trabalho:** `D:\Temp\DEV-1D\SOP`
 
@@ -6,39 +6,31 @@
 
 ---
 
-### **Caso real a ser abordado:** WannaCry (2017) – Um dos maiores ataques de ransomware da história, que paralisou hospitais, empresas e órgãos públicos em diversos países.
-
----
-
-
 ## 📄 Enunciado da Atividade:
-**Caso real a ser abordado:** WannaCry (2017) – Um dos maiores ataques de ransomware da história, que paralisou hospitais, empresas e órgãos públicos em diversos países.
+**Caso real a ser abordado:** Ataque SolarWinds (2020) – Um dos maiores e mais sofisticados ataques de espionagem cibernética, onde hackers comprometeram a cadeia de suprimentos de software da SolarWinds, utilizando credenciais comprometidas para inserir malware em atualizações de software que afetaram dezenas de agências governamentais e empresas de tecnologia.
 
-Vocês são um grupo de repórteres e especialistas de um telejornal que está cobrindo uma crise cibernética global causada por um malware chamado WannaCry. O ataque acabou de acontecer, e o mundo quer respostas.
+O grupo vai montar um painel de discussão de especialistas, onde cada membro vai interpretar um especialista que discute as falhas de credenciais que possibilitaram o ataque SolarWinds. Durante a apresentação, o grupo deve abordar como as credenciais de acesso foram comprometidas, como o malware foi inserido nas atualizações e qual foi o impacto do ataque.
 
-Sua missão é apresentar uma reportagem especial ao vivo, com dramatizações, entrevistas e dados técnicos, explicando:
+O objetivo do painel é analisar as falhas relacionadas ao uso de credenciais, discutir como as credenciais comprometidas afetaram a cadeia de suprimentos e sugerir formas de proteger melhor as credenciais de acesso em sistemas corporativos.
 
 ### 🎯 Objetivos do grupo:
 1. O que é um Malware e como ele funciona, com destaque para o tipo Ransomware.
-2. Contar como o WannaCry atacou o mundo e o impacto que causou.
-3. Apontar as vulnerabilidades exploradas e como isso poderia ter sido evitado.
-4. Relatar as intervenções feitas após o ataque e como as organizações se protegeram depois.
-5. Finalizar com boas práticas de prevenção e orientações ao público.
-
+2. Apresentar o caso SolarWinds, detalhando como os hackers comprometeram as credenciais de administradores e infectaram o software.
+3. Discutir as falhas de segurança na gestão de credenciais que permitiram o ataque e o impacto que teve em governos e empresas.
+4. Propor estratégias de proteção de credenciais, como uso de autenticação multifatorial, auditorias de acesso e melhores práticas de segurança.
 
 ### 🧩 Funções sugeridas (1 aluno por papel):
-- Âncora do Jornal: Abre e fecha a reportagem, faz transições entre as falas.
-- Repórter de Campo: Relata diretamente de um “hospital afetado”.
-- Especialista em Cibersegurança: Explica tecnicamente o que é um malware e o funcionamento do WannaCry.
-- Porta-voz da Microsoft: Fala das vulnerabilidades do Windows, o patch lançado e as medidas de prevenção.
+- Moderador: Conduz a discussão, faz perguntas e mantém o ritmo da conversa.
+- Especialista em Segurança Cibernética: Explica como o uso inadequado de credenciais facilita ataques de grandes dimensões, como no caso SolarWinds.
+- Especialista em Gestão de Credenciais: Fala sobre as práticas de segurança de credenciais e como a autenticação multifatorial poderia ter mitigado o ataque.
+- Especialista em Governança de TI: Explica o impacto do ataque nas organizações afetadas e as falhas nas políticas de governança que permitiram o comprometimento.
 
 ### ❓ Perguntas norteadoras que devem aparecer no roteiro:
-- O que é exatamente um malware? Quais tipos existem?
-- Como o WannaCry se espalhou tão rápido?
-- Que falha permitiu a infecção de tantos sistemas?
-- O que as organizações fizeram imediatamente após o ataque?
-- Que atitudes poderiam ter evitado a propagação?
-- Como o público pode se proteger de ataques semelhantes?
+- O que são credenciais e como elas são utilizadas para acessar sistemas críticos?
+- Como o ataque SolarWinds foi realizado e quais credenciais foram comprometidas?
+- Quais falhas nas práticas de segurança de credenciais permitiram que o malware fosse inserido nas atualizações de software?
+- Como o ataque afetou governos e empresas ao redor do mundo?
+- Quais medidas podem ser implementadas para proteger melhor as credenciais e evitar ataques como o SolarWinds?
 
 ### 🎭 Formato da apresentação (estilo Jornal Urgente):
 - Tempo sugerido: 6 a 8 minutos

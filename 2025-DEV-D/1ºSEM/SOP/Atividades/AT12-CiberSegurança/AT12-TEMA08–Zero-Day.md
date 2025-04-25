@@ -1,4 +1,4 @@
-# 📘 04-25 | TEMA 1 – MALWARE
+# 📘 04-25 | 🎯 TEMA 8 – STUXNET (ZERO-DAY)
 
 **📁 Pasta de trabalho:** `D:\Temp\DEV-1D\SOP`
 
@@ -12,33 +12,31 @@
 
 
 ## 📄 Enunciado da Atividade:
-**Caso real a ser abordado:** WannaCry (2017) – Um dos maiores ataques de ransomware da história, que paralisou hospitais, empresas e órgãos públicos em diversos países.
+**Caso real a ser abordado:** Stuxnet (2010) – Um ataque cibernético sofisticado e altamente direcionado, que explorou uma vulnerabilidade Zero-Day em sistemas industriais, sendo amplamente associado a operações cibernéticas militares, visando o programa nuclear iraniano
 
-Vocês são um grupo de repórteres e especialistas de um telejornal que está cobrindo uma crise cibernética global causada por um malware chamado WannaCry. O ataque acabou de acontecer, e o mundo quer respostas.
+O grupo vai criar um documentário no estilo Netflix para contar a história do vírus Stuxnet. O documentário deve abordar como o Stuxnet foi desenvolvido, como ele se espalhou, as vulnerabilidades que ele explorou, seu impacto no programa nuclear iraniano e o significado do ataque para a segurança cibernética global.
 
-Sua missão é apresentar uma reportagem especial ao vivo, com dramatizações, entrevistas e dados técnicos, explicando:
+A apresentação deverá ser dividida em uma narrativa envolvente, com o grupo explorando a história do ataque de forma dramática e educativa, como se fosse um episódio de documentário. Eles devem incluir dados técnicos do ataque, suas implicações políticas e as lições de segurança que podem ser aprendidas com esse incidente.
 
 ### 🎯 Objetivos do grupo:
-1. O que é um Malware e como ele funciona, com destaque para o tipo Ransomware.
-2. Contar como o WannaCry atacou o mundo e o impacto que causou.
-3. Apontar as vulnerabilidades exploradas e como isso poderia ter sido evitado.
-4. Relatar as intervenções feitas após o ataque e como as organizações se protegeram depois.
-5. Finalizar com boas práticas de prevenção e orientações ao público.
+1. Explicar o conceito de vulnerabilidades Zero-Day e como elas foram exploradas pelo Stuxnet para comprometer sistemas industriais.
+2. Apresentar o caso do Stuxnet, incluindo o seu desenvolvimento, as técnicas usadas pelos atacantes e as consequências para o Irã.
+3. Discutir o impacto do Stuxnet na segurança cibernética, como ele alterou a maneira como ataques cibernéticos são vistos no contexto de guerras cibernéticas.
+4. Propor estratégias de defesa para mitigar ataques semelhantes, como a proteção de sistemas industriais e a detecção de vulnerabilidades Zero-Day.
 
 
 ### 🧩 Funções sugeridas (1 aluno por papel):
-- Âncora do Jornal: Abre e fecha a reportagem, faz transições entre as falas.
-- Repórter de Campo: Relata diretamente de um “hospital afetado”.
-- Especialista em Cibersegurança: Explica tecnicamente o que é um malware e o funcionamento do WannaCry.
-- Porta-voz da Microsoft: Fala das vulnerabilidades do Windows, o patch lançado e as medidas de prevenção.
+- Narrador Principal: A principal voz do documentário, conduzindo a narrativa e explicando os detalhes do Stuxnet, como ele foi descoberto e como ele afetou o Irã.
+- Especialista Técnico: Explica como o Stuxnet funcionou tecnicamente, detalhando como ele explorou vulnerabilidades Zero-Day e se espalhou por sistemas industriais.
+- Analista de Impacto: Discute as implicações políticas do ataque, o impacto nas relações internacionais e como ele influenciou a segurança cibernética global.
+- Especialista em Prevenção e Defesa: Propõe medidas de defesa e estratégias para mitigar ataques semelhantes, como proteção de sistemas industriais e monitoramento de vulnerabilidades.
 
 ### ❓ Perguntas norteadoras que devem aparecer no roteiro:
-- O que é exatamente um malware? Quais tipos existem?
-- Como o WannaCry se espalhou tão rápido?
-- Que falha permitiu a infecção de tantos sistemas?
-- O que as organizações fizeram imediatamente após o ataque?
-- Que atitudes poderiam ter evitado a propagação?
-- Como o público pode se proteger de ataques semelhantes?
+- O que é um ataque Zero-Day e como o Stuxnet se aproveitou dessa vulnerabilidade?
+- Como o Stuxnet foi desenvolvido, e qual foi seu impacto nos sistemas industriais iranianos?
+- O que o ataque do Stuxnet significou para as relações internacionais, e como ele influenciou a estratégia de segurança cibernética global?
+- Quais estratégias poderiam ser adotadas para prevenir ataques como o Stuxnet em infraestruturas críticas?
+- O que podemos aprender com o Stuxnet sobre a proteção de infraestruturas críticas e sistemas industriais?
 
 ### 🎭 Formato da apresentação (estilo Jornal Urgente):
 - Tempo sugerido: 6 a 8 minutos
