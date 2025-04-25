@@ -14,7 +14,7 @@ O grupo vai montar um painel de discussão de especialistas, onde cada membro va
 O objetivo do painel é analisar as falhas relacionadas ao uso de credenciais, discutir como as credenciais comprometidas afetaram a cadeia de suprimentos e sugerir formas de proteger melhor as credenciais de acesso em sistemas corporativos.
 
 ### 🎯 Objetivos do grupo:
-1. O que é um Malware e como ele funciona, com destaque para o tipo Ransomware.
+1. Explicar o conceito de credenciais (usuário e senha, autenticação multifatorial, etc.) e como são utilizadas para acessar sistemas críticos.
 2. Apresentar o caso SolarWinds, detalhando como os hackers comprometeram as credenciais de administradores e infectaram o software.
 3. Discutir as falhas de segurança na gestão de credenciais que permitiram o ataque e o impacto que teve em governos e empresas.
 4. Propor estratégias de proteção de credenciais, como uso de autenticação multifatorial, auditorias de acesso e melhores práticas de segurança.

@@ -6,11 +6,6 @@
 
 ---
 
-### **Caso real a ser abordado:** WannaCry (2017) – Um dos maiores ataques de ransomware da história, que paralisou hospitais, empresas e órgãos públicos em diversos países.
-
----
-
-
 ## 📄 Enunciado da Atividade:
 **Caso real a ser abordado:** Superfish da Lenovo (2015) – Um incidente envolvendo um software preinstalado chamado Superfish, que permitiu um ataque Man-in-the-Middle (MitM), interceptando as comunicações seguras dos usuários e expondo dados privados sem o consentimento dos mesmos.
 

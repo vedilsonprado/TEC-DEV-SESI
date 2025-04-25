@@ -6,11 +6,6 @@
 
 ---
 
-### **Caso real a ser abordado:** WannaCry (2017) – Um dos maiores ataques de ransomware da história, que paralisou hospitais, empresas e órgãos públicos em diversos países.
-
----
-
-
 ## 📄 Enunciado da Atividade:
 **Caso real a ser abordado:** Stuxnet (2010) – Um ataque cibernético sofisticado e altamente direcionado, que explorou uma vulnerabilidade Zero-Day em sistemas industriais, sendo amplamente associado a operações cibernéticas militares, visando o programa nuclear iraniano
 
