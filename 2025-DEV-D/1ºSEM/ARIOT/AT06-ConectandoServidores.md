@@ -16,10 +16,10 @@
 <Br><Br>
 - **Rede 1** (Roteador 1) - Classe C:
   - 1 Switch com 10 PCs
-  - Rede: 192.168.1.0/24 (255.255.255.0)
-  - Gateway: 192.168.1.1
-  - Servidor DHCP: 192.168.1.2
-  - IPs dos PCs: 192.168.1.10 (Permitir 15 dispositivos na rede)
+  - Rede: 192.168.10.0/24 (255.255.255.0)
+  - Gateway: 192.168.10.1
+  - Servidor DHCP: 192.168.10.2
+  - IPs dos PCs: 192.168.10.10 (Permitir 15 dispositivos na rede)
 <Br><Br>
 - **Rede 2** (Roteador 2) - Classe B:
   - 1 Switch com 10 PCs
@@ -32,6 +32,7 @@
   - 1 Switch com 10 PCs
   - Rede: 30.0.0.0/8 (255.0.0.0)
   - IP do Roteador: 30.0.0.1
+  - Servidor DHCP: 30.0.0.2
   - IPs dos PCs: 30.20.10.0(Permitir 60 dispositivos na rede)
 <Br><Br>
 
