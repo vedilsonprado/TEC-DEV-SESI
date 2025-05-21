@@ -133,7 +133,7 @@
 - Sequência sugerida:
 	- Verde-A acende por 3 segundos (enquanto isso o Vermelho-B estará acesso) 
 	- Apaga o Verde-A e acende o Amarelo-A acende por por 1 segundo (enquanto isso o Vermelho-B estará acesso) 
-	- Apaga o Amarelo-A e acende o Vermelho-A por 4 segundos (enquanto isso o Verde-B estará acesso por 3 segundo e o Amarelo-B por 1 segundo) 
+	- Apaga o Amarelo-A e acende o Vermelho-A por 4 segundos (enquanto isso o Vermelho-B será apagado(totalizando 4 segundos), o Verde-B será acesso por 3 segundo e o Amarelo-B por 1 segundo) 
 	- Não deve haver delay entre um leg apagar e o outro ascender
 	- Reinicia o ciclo
 
