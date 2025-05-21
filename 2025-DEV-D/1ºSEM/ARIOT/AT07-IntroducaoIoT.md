@@ -101,17 +101,19 @@
 - 1 LED vermelho
 - 1 LED amarelo
 - 1 LED verde
-- 3 resistências de 220 Ω
+- 3 resistências de 350 Ω
 - 1 Arduino UNO
 - 1 protoboard
 
 **Regras:**
 - Conecte os LEDs aos pinos 10 (vermelho), 9 (amarelo) e 8 (verde).
+- Conecte o GND ao negativo da protoboard.
+- Conecte as resistências ao negativo e ao catodo de cada LED.
 - Programe com blocos: o Arduino deve simular o funcionamento de um semáforo.
-- Sequência sugerida:
+- Sequência:
 	- Verde acende por 3 segundos
 	- Apaga o verde e acende o amarelo por 1 segundo
-	- Apaga o amarelo e acende o vermelho por 3 segundos
+	- Apaga o amarelo e acende o vermelho por 4 segundos
 	- Reinicia o ciclo
 
 ### 💾 Salvar como: `06 - SeuNome`
@@ -120,19 +122,19 @@
 ### **Objetivo:** Simular um semáforo duplo com Arduino controlando 6 LEDs.
 
 **Componentes:**
-- 1 LED vermelho
-- 1 LED amarelo
-- 1 LED verde
-- 3 resistências de 220 Ω
+- 2 LED vermelho
+- 2 LED amarelo
+- 2 LED verde
+- 6 resistências de 220 Ω
 - 1 Arduino UNO
 - 1 protoboard
 
 **Regras:**
 - Sequência sugerida:
-	- Vermelho acende por 4 segundos
-	- Apaga o Vermelho e acende o amarelo por 1 segundo
-	- Apaga o amarelo e acende o verde por 3 segundos
-  - Não deve haver delay entre um leg apagar e o outro ascender
+	- Verde-A acende por 3 segundos (enquanto isso o Vermelho-B estará acesso) 
+	- Apaga o Verde-A e acende o Amarelo-A acende por por 1 segundo (enquanto isso o Vermelho-B estará acesso) 
+	- Apaga o Amarelo-A e acende o Vermelho-A por 4 segundos (enquanto isso o Verde-B estará acesso por 3 segundo e o Amarelo-B por 1 segundo) 
+	- Não deve haver delay entre um leg apagar e o outro ascender
 	- Reinicia o ciclo
 
 ### 💾 Salvar como: `Desafio 01 - SeuNome`
