@@ -4,7 +4,7 @@
 
 **👨🏻‍🏫 Enviar os arquivos no Thikercad**
 
-**🔧 Acessar o [TinkerCad](https://www.tinkercad.com/joinclass/NR3PP9END)**
+**🔧 Acessar o [TinkerCad](https://www.tinkercad.com/joinclass/DVC9AQQMB)**
 
 ## 🧪 ATIVIDADE 1 — Acendendo um LED com a Fonte
 ### **Objetivo:** Entender a ligação de um LED e resistência com uma fonte de energia.
