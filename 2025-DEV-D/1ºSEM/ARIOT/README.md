@@ -15,7 +15,7 @@
 
 ## Critérios de avaliação (Críticos e Desejaveis)
 
-- Notas (Baseada em requisitos Críticos e de**Mínimo 50** de 0 a 100)
+- Notas (Baseada em requisitos Críticos e desejáveis. **Mínimo 50** de 0 a 100)
 
 ![ds00](./assets/criteriosariot.png)
 

@@ -5,7 +5,7 @@
 Esse itinerário específico é voltado para a Formação Técnica e Profissional dos estudantes em parceria SEDUC (Secretaria de Educação do Estado de São Paulo) e SESI (Serviço Social da Indústria) e SENAI (Serviço Nacional de Aprendizagem Industrial).
 
 
-## [Plano de Curso](https://github.com/PlanoCurso.pdf)
+## [Plano de Curso](./assets/planodecurso.pdf)
 ## Semestres
 - 1º Semestre
     - Lógica de Programação e Algoritmos (75 horas/100 aulas)
