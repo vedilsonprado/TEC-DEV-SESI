@@ -11,7 +11,7 @@
 
 **Componentes:**
 - 1 LED vermelho
-- 1 resistência de 220 Ω
+- 1 resistência de 350 Ω
 - 1 fonte de energia (pilha de 9V)
 
 **Regras:**
@@ -30,7 +30,7 @@
 
 **Componentes:**
 - 1 LED vermelho
-- 1 resistência de 220 Ω
+- 1 resistência de 350 Ω
 - 1 fonte de energia (pilha de 9V)
 - 1 Botão
 
@@ -49,7 +49,7 @@
 - 1 LED vermelho
 - 1 LED amarelo
 - 1 LED verde
-- 3 resistências de 220 Ω
+- 3 resistências de 350 Ω
 - 3 botões
 - 1 fonte de 9V
 - 1 protoboard
@@ -66,7 +66,7 @@
 
 **Componentes:**
 - 1 LED vermelho
-- 1 resistência de 220 Ω
+- 1 resistência de 350 Ω
 - 1 Arduino UNO
 - 1 protoboard
 
@@ -81,7 +81,7 @@
 
 **Componentes:**
 - 1 LED vermelho
-- 1 resistência de 220 Ω
+- 1 resistência de 350 Ω
 - 1 botão
 - 1 Arduino UNO
 - 1 protoboard
@@ -107,13 +107,11 @@
 
 **Regras:**
 - Conecte os LEDs aos pinos 10 (vermelho), 9 (amarelo) e 8 (verde).
-- Conecte o GND ao negativo da protoboard.
-- Conecte as resistências ao negativo e ao catodo de cada LED.
 - Programe com blocos: o Arduino deve simular o funcionamento de um semáforo.
-- Sequência:
+- Sequência sugerida:
 	- Verde acende por 3 segundos
 	- Apaga o verde e acende o amarelo por 1 segundo
-	- Apaga o amarelo e acende o vermelho por 4 segundos
+	- Apaga o amarelo e acende o vermelho por 3 segundos
 	- Reinicia o ciclo
 
 ### 💾 Salvar como: `06 - SeuNome`
@@ -136,24 +134,29 @@
 	- Apaga o Amarelo-A e acende o Vermelho-A por 4 segundos (enquanto isso o Vermelho-B será apagado(totalizando 4 segundos), o Verde-B será acesso por 3 segundo e o Amarelo-B por 1 segundo) 
 	- Não deve haver delay entre um leg apagar e o outro ascender
 	- Reinicia o ciclo
-
+	
 ### 💾 Salvar como: `Desafio 01 - SeuNome`
 
-## 🧪 Desafio 2 — Cruzamento Semáforo com Arduino
-### **Objetivo:** Simular um semáforo duplo com Arduino controlando 6 LEDs.
+## 🧪 Desafio 2 — Semáforo com LED RGB	
+### **Objetivo:** Simular o funcionamento de um semáforo utilizando um único LED RGB comum (de 4 pinos), controlado pelo Arduino por meio da programação em blocos.
+Você deverá programar o Arduino para acender as cores verde, amarelo e vermelho na ordem correta de um semáforo. Cada cor deverá ser acesa individualmente por um tempo específico, criando um ciclo contínuo que simula a sinalização viária.
+Para isso, você deve usar blocos do tipo:
+“Definir pino X como ALTO/BAIXO” para ligar e desligar cada cor do LED RGB,
+“Esperar X segundos” para definir os tempos de permanência de cada cor,
+Lógica sequencial com repetição em loop.
+
+`Importante: Como o LED RGB comum possui um catodo comum, a lógica de acionamento envolve ativar os pinos correspondentes às cores individualmente, desligando os outros dois a cada etapa.`
+
+**Ciclo esperado:**
+- Verde aceso por 3 segundos (apenas o pino do verde em nível ALTO, os outros em BAIXO)
+- Amarelo aceso por 1 segundo
+- Vermelho aceso por 3 segundos
+- Reinicia o ciclo automaticamente.
 
 **Componentes:**
-- 1 LED RGB
-- 1 resistências de 220 Ω
+- 1 LED RGB comum (catodo comum)
+- 3 resistores de 220 Ω (um para cada cor: vermelho, verde e azul)
 - 1 Arduino UNO
 - 1 protoboard
-
-**Regras:**
-- Sequência sugerida:
-	- Vermelho acende por 4 segundos
-	- Apaga o Vermelho e acende o amarelo por 1 segundo
-	- Apaga o amarelo e acende o verde por 3 segundos
-  - Não deve haver delay entre um leg apagar e o outro ascender
-	- Reinicia o ciclo
-
+	
 ### 💾 Salvar como: `Desafio 02 - SeuNome`
