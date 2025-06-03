@@ -14,6 +14,7 @@ Apresentar o site de catálogo de produtos de uma joalheria desenvolvido ao long
 	- Paleta de cores, tipografia, estilo visual e consistência.
 	- Aplicação nos elementos do site.
 	- Coerência com o público-alvo.
+	- Prototipação Desktop, Tablet e mobile.
 
 3. Divisão de papéis e funções
 	- Cada integrante deve assumir e explicar seu papel. Funções mínimas exigidas:
