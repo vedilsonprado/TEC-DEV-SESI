@@ -26,7 +26,7 @@ Apresentar o site de catálogo de produtos de uma joalheria desenvolvido ao long
 | **Backend Developer**  | Banco de dados, APIs e lógica do sistema.                  |
 | **Designer**           | Marca, identidade visual e prototipação.                   |
 
-	- Outros papéis opcionais: Testador, Product Owner, UX Researcher, Documentador etc.
+- Outros papéis opcionais: Testador, Product Owner, UX Researcher, Documentador etc.
 
 4. Uso do Trello
 	- Apresentação do quadro utilizado.
@@ -55,7 +55,7 @@ Apresentar o site de catálogo de produtos de uma joalheria desenvolvido ao long
 - Prototipagem ou imagens são aceitas se partes não estiverem completas
 
 ## ✅ Critérios de Avaliação
-###🔹 A. Avaliação da Apresentação (4,0 pontos)
+### 🔹 A. Avaliação da Apresentação (40,0 pontos)
 | Critério                                          | Pontos |
 | ------------------------------------------------- | ------ |
 | Clareza e organização na apresentação             | 10,0   |
@@ -63,7 +63,7 @@ Apresentar o site de catálogo de produtos de uma joalheria desenvolvido ao long
 | Apresentação do Trello com uso real e estruturado | 10,0   |
 | Qualidade visual dos slides e identidade do grupo | 10,0   |
 
-### 🔹 B. Avaliação do Projeto Técnico (6,0 pontos)
+### 🔹 B. Avaliação do Projeto Técnico (60,0 pontos)
 | Critério                                                | Pontos |
 | ------------------------------------------------------- | ------ |
 | Funcionalidade e navegação do site (sem erros visíveis) | 10,5   |
