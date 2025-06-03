@@ -47,7 +47,7 @@ Apresentar o site de catálogo de produtos de uma joalheria desenvolvido ao long
 - Sugestões de melhorias futuras
 
 ## 📏 Regras da Apresentação
-- Duração: 10 a 12 minutos por grupo
+- Duração: 15 a 20 minutos por grupo
 - Todos os membros devem falar
 - O site deve estar funcional e acessível (local ou online)
 - Slides de apoio são obrigatórios
