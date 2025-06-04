@@ -31,9 +31,6 @@
 **Componentes:**
 - Arduino UNO
 
-**Montagem:**
-- LED com resistor conectado ao pino 13 e GND.
-
 **Lógica:**
 - Criar int contador = 0;
 - No loop, imprimir contador no Serial.
