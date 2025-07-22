@@ -7,6 +7,9 @@
 
 ## ☕ A História do Java
 
+<details>
+ <summary>Ver mais</summary>
+
 Java é uma das linguagens de programação mais influentes e populares do mundo. Vamos explorar sua evolução:
 
 <details>
@@ -53,8 +56,11 @@ A grande virada foi quando a Netscape anunciou suporte ao Java em seus navegador
 ---
 
 🧠 _“Java is to JavaScript what car is to carpet.” — Chris Heilmann_
+</details>
 
 ## 🧩 A Estrutura do Java
+<details>
+ <summary>Ver mais</summary>
 
 <details>
  <summary><strong>📌 Java: A Linguagem de Programação</strong></summary>
@@ -131,6 +137,15 @@ A JVM é o que permite que o mesmo bytecode Java seja executado em diferentes si
 
 </details>
 
+</details>
+
+## Introdução a linguagem Java
+
+## 🧩 A Estrutura do Java
+<details>
+ <summary>Ver mais</summary>
+
+ </details>
 ---
 
 
