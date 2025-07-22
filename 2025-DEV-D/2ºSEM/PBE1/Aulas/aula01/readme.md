@@ -1,56 +1,137 @@
-# 👨🏻‍💻 Técnico em Desenvolvimento de Sistemas - TURMA DEV-Clarios
-## 🤖 BANCO DE DADOS - Aula 01 - Introdução a Banco de Dados
+# 👨🏻‍💻 Técnico em Desenvolvimento de Sistemas - TURMA Mangal 2025-2026
+## 🍵 Programação Backend - Aula 01 - Revisão e Histórico do Java
 |Objetivo:|
 |-|
 |Desenvolver capacidades técnicas e socioemocionais relativas à criação da estrutura para armazenamento, manipulação e persistência de dados.|
 
-### O que são Dados?
-**Definição:** São valores brutos, isolados e sem contexto. São como peças de um quebra-cabeça ainda não montado, representando fatos e observações sobre o mundo.
 
-**Características:**
-- **Simples e fragmentados:** não transmitem significado por si só.
-- **Quantitativos ou qualitativos:** podem ser numéricos, textuais, imagens, sons, etc.
-- **Obtidos através de medições ou observações:** coletados de diversas fontes, como sensores, pesquisas, formulários etc.
+## ☕ A História do Java
 
-![Dados vs Informações](../../assets/dados.png)
+Java é uma das linguagens de programação mais influentes e populares do mundo. Vamos explorar sua evolução:
 
-### O que são Informações?
-**Definição:** É o resultado da interpretação e organização dos dados, tornando-os úteis e significativos para o usuário. É o quebra-cabeça montado, revelando uma imagem compreensível.
+<details>
+ <summary><strong>📌 Origem do Java</strong></summary>
 
-**Características:**
-- **Contextualizada e relevante:** possui significado e propósito para quem a utiliza.
-- **Processada e organizada:** dados analisados, agrupados e estruturados para gerar valor.
-- **Base para a tomada de decisão:** auxilia na compreensão de situações e na escolha de ações.
+### 🛠️ Projeto Green (1991)
 
-### O que é um Banco de Dados?
-**Definição:** É uma coleção de dados inter relacionados, representando informações sobre um domínio Específico.
+O Java foi criado por uma equipe da Sun Microsystems liderada por **James Gosling**. Originalmente, a linguagem se chamava **Oak**.
 
-**Exemplos:**
-<BR>✔Lista telefônica
-<BR>✔Controle do acervo de uma biblioteca 
-<BR>✔Controle dos recursos humanos de uma empresa
+A ideia era criar uma linguagem para eletrodomésticos inteligentes — sim, geladeiras e TVs!
 
-### Modelos de Bancos de Dados:
-### Banco de Dados Relacional
-**Características:** 
-- É uma coleção de dados inter relacionados, representando informações sobre um domínio Específico.
-- Separação entre representação conceitual e armazenamento físico.
-- Fundamentação Matemática (Teoria dos Conjuntos, Lógica e Álgebra Relacional).
-- Linguagem de Consulta de Alto Nível (SQL) e independente da Linguagem de Programação da Aplicação.
-- Baseado em Relações (Tabelas).
+### 🌍 Java 1.0 (1995)
 
-**Analogia:** Uma biblioteca tradicional, onde os livros são organizados por categorias, autores e títulos em um sistema de catalogação rígido e interconectado.
+O nome “Java” foi adotado em 1995, inspirado no café da ilha de Java (Indonésia).
 
-### Banco de Dados Não Relacional
-**Definição:** Abrangem uma variedade de modelos de dados, como chave-valor, documentos, grafos, oferecendo maior flexibilidade na estrutura e organização da informação.
+A grande virada foi quando a Netscape anunciou suporte ao Java em seus navegadores, dando origem aos **applets**.
 
-**Analogia:** Uma biblioteca moderna com espaços multimídia, instalações interativas e áreas de leitura personalizadas, onde a organização se adapta às diferentes formas de interagir com o conhecimento.
+</details>
 
-### Resumo
+---
 
-**Relacionais:** Estrutura rígida e organizada, ideal para transações e dados estruturados.
+<details>
+<summary><strong>💡 Java na Atualidade</strong></summary>
 
-**Não Relacionais:** Flexibilidade e escalabilidade, ideal para Big Data e ambientes dinâmicos.
+- Utilizado em bancos, fintechs, sistemas de missão crítica.
+- Presente no Android (embora o Android use uma versão própria da VM).
+- Concorrência com Kotlin, mas ainda amplamente usado.
+
+**Versão LTS atual:** Java 21 (lançada em setembro de 2023)
+
+</details>
+
+---
+
+<details>
+<summary><strong>🎯 Curiosidades</strong></summary>
+
+- Java foi pensado para ser portátil: “**Write Once, Run Anywhere**”.
+- O mascote do Java se chama **Duke**.
+- O nome “Java” venceu sugestões como “Silk” e “DNA”.
+
+</details>
+
+---
+
+🧠 _“Java is to JavaScript what car is to carpet.” — Chris Heilmann_
+
+## 🧩 A Estrutura do Java
+
+<details>
+ <summary><strong>📌 Java: A Linguagem de Programação</strong></summary>
+
+- Linguagem orientada a objetos
+- Código-fonte (.java) compilado para bytecode (.class)
+- Independente de plataforma
+- Gerenciamento automático de memória
+````java
+public class Hello {
+  public static void main(String[] args) {
+    System.out.println("Hello, Java!");
+  }
+}
+````
+![Dados vs Informações](../../assets/BytecodeJava.png)
+
+</details>
+
+---
+
+<details>
+ <summary><strong>📌 JVM: A Máquina Virtual Java</strong></summary>
+
+- Executa o bytecode Java
+- Gerencia memória e garbage collection
+- Componentes: Class Loader, Execution Engine, Memory Area
+- Implementações específicas para cada plataforma
+
+	WORA - Write Once, Run Anywhere
+	
+A JVM é o que permite que o mesmo bytecode Java seja executado em diferentes sistemas operacionais sem modificações.
+
+![Dados vs Informações](../../assets/ArquiteturaJava.png)
+
+</details>
+
+---
+
+<details>
+ <summary><strong>📌 JDK: O Kit de Desenvolvimento Java</strong></summary>
+ 
+- Pacote completo para desenvolvimento Java
+- Contém o JRE (Java Runtime Environment)
+- Inclui ferramentas de desenvolvimento
+- Bibliotecas e APIs para desenvolvimento
+
+**Principais Ferramentas**
+- javac (compilador)
+- java (executor)
+- jar (empacotador)
+- javadoc (documentação)
+
+![Dados vs Informações](../../assets/ArquiteturaJava02.png)
+
+
+</details>
+
+---
+
+<details>
+ <summary><strong>📌 Java, JVM e JDK: Trabalhando Juntos</strong></summary>
+
+- Desenvolvedor escreve código Java
+- JDK fornece ferramentas para compilação
+- JVM executa o bytecode em qualquer plataforma
+- Ciclo completo: desenvolvimento → execução
+
+![Dados vs Informações](../../assets/FluxoCompleto.png)
+
+	Ecossistema Completo
+	
+	O poder do Java está na integração destes três componentes, permitindo desenvolvimento eficiente e execução multiplataforma.
+
+</details>
+
+---
 
 
 ## Conhecimentos Trabalhados:
