@@ -895,6 +895,55 @@ public class PercorrerMatriz {
 
 </details>
 
+## 09. Utilizando a classe Scanner para entrada de dados
+
+<details>
+<summary>Ver mais</summary>
+A classe Scanner pertence ao pacote java.util e é usada para capturar entradas de dados via teclado. É muito útil para programas interativos, permitindo que o usuário informe valores durante a execução.
+
+**Antes de usar, é necessário importar:**
+
+````java
+import java.util.Scanner;
+````
+
+### 📥 Métodos principais
+
+| Método          | Tipo de dado que lê           | Exemplo de uso                           |
+| --------------- | ----------------------------- | ---------------------------------------- |
+| `nextLine()`    | Texto (linha inteira)         | `String nome = entrada.nextLine();`      |
+| `next()`        | Texto (até o primeiro espaço) | `String palavra = entrada.next();`       |
+| `nextInt()`     | Número inteiro                | `int idade = entrada.nextInt();`         |
+| `nextDouble()`  | Número real (usar ponto)      | `double peso = entrada.nextDouble();`    |
+| `nextBoolean()` | Valor lógico (true/false)     | `boolean ativo = entrada.nextBoolean();` |
+
+> **⚠️ Atenção:** após usar `nextInt()` ou `nextDouble()`, pode ser necessário chamar `entrada.nextLine()` para consumir o "enter" restante.
+
+### 💡 Exemplo prático
+
+````java
+import java.util.Scanner;
+
+public class EntradaDeDados {
+    public static void main(String[] args) {
+        Scanner entrada = new Scanner(System.in);
+
+        System.out.print("Digite seu nome: ");
+        String nome = entrada.nextLine();
+
+        System.out.print("Digite sua idade: ");
+        int idade = entrada.nextInt();
+
+        System.out.println("Olá, " + nome + ". Você tem " + idade + " anos.");
+
+        entrada.close();
+    }
+}
+````
+> **📚 Dica:** Sempre use entrada.close(); ao final do programa para fechar o recurso.
+
+
+</details>
 </details>
 
 
