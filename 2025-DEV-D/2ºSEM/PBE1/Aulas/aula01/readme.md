@@ -485,10 +485,69 @@ Como visto nos exemplos de casting explícito, a conversão de um tipo maior par
 
 É fundamental estar ciente dessas implicações ao realizar casting explícito para evitar erros lógicos em seus programas.
 
+🧵 Conversão de Tipos para String
+Em programas interativos, é comum converter números e outros tipos em Strings para facilitar exibição e concatenação de mensagens.
+
+🧩 Principais formas de conversão:
+| Método                      | Descrição                         | Exemplo                              |
+| --------------------------- | --------------------------------- | ------------------------------------ |
+| `String.valueOf(valor)`     | Funciona com quase todos os tipos | `String s = String.valueOf(123);`    |
+| `Integer.toString(int)`     | Para inteiros                     | `String s = Integer.toString(42);`   |
+| `Double.toString(double)`   | Para números decimais             | `String s = Double.toString(3.14);`  |
+| `Boolean.toString(boolean)` | Para valores lógicos              | `String s = Boolean.toString(true);` |
+| Concatenação com `+ ""`     | Atalho prático                    | `String s = 100 + "";`               |
+
+
+1. String.valueOf()
+```java
+public class ConversaoValueOf {
+    public static void main(String[] args) {
+        int numero = 123;
+        double altura = 1.75;
+        boolean ativo = true;
+
+        String s1 = String.valueOf(numero);
+        String s2 = String.valueOf(altura);
+        String s3 = String.valueOf(ativo);
+
+        System.out.println("Número como String: " + s1);
+        System.out.println("Altura como String: " + s2);
+        System.out.println("Ativo como String: " + s3);
+    }
+}
+```
+2. Integer.toString() / Double.toString() / Boolean.toString()
+```java
+public class ConversaoToString {
+    public static void main(String[] args) {
+        int idade = 25;
+        double peso = 68.9;
+        boolean aprovado = false;
+
+        String s1 = Integer.toString(idade);
+        String s2 = Double.toString(peso);
+        String s3 = Boolean.toString(aprovado);
+
+        System.out.println("Idade como String: " + s1);
+        System.out.println("Peso como String: " + s2);
+        System.out.println("Aprovado como String: " + s3);
+    }
+}
+```
+3. Concatenação com "" (forma rápida)
+```java
+public class ConversaoConcatenacao {
+    public static void main(String[] args) {
+        int ano = 2025;
+        String anoTexto = ano + "";
+
+        System.out.println("Ano como String: " + anoTexto);
+    }
+}
+```
+
+
 </details>
-
-
-
 
 ## 5. Estruturas de Controle
 
@@ -944,9 +1003,37 @@ public class EntradaDeDados {
 
 
 </details>
+
+## 10.Exibindo informações com System.out.print e variações
+<details>
+ <summary>Ver mais</summary>
+
+Entender como usar os comandos de saída padrão do Java para exibir textos, números e resultados no terminal, utilizando System.out.print, System.out.println e System.out.printf.
+
+### 🧱 System.out.print()
+Exibe o conteúdo na mesma linha e não pula para a próxima.
+
+````java
+System.out.print("Olá");
+System.out.print(" mundo!");
+````
+
+### 🧱 System.out.println()
+Exibe o conteúdo e pula para a próxima linha automaticamente.
+````java
+System.out.println("Olá");
+System.out.println("mundo!");
+````
+🧱 System.out.printf()
+Permite formatar a saída.
+````java
+String nome = "Ana";
+int idade = 25;
+System.out.printf("Nome: %s | Idade: %d\n", nome, idade);
+````
 </details>
 
-
+</details>
 ## 🧠 Conhecimentos Trabalhados:
 <details>
  <summary>Ver mais</summary>
