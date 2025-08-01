@@ -1024,19 +1024,101 @@ Exibe o conteúdo e pula para a próxima linha automaticamente.
 System.out.println("Olá");
 System.out.println("mundo!");
 ````
-🧱 System.out.printf()
-Permite formatar a saída.
+### 🧱 System.out.printf()
+O método System.out.printf() permite imprimir uma String formatada, ou seja, você define como os dados serão apresentados, usando marcadores de formatação (placeholders), como `%d`, `%s`, `%f`, etc.
 ````java
 String nome = "Ana";
 int idade = 25;
 System.out.printf("Nome: %s | Idade: %d\n", nome, idade);
 ````
+
+#### 🧱 Sintaxe geral
+System.out.printf("texto com marcadores", valores_correspondentes);
+Exemplo básico:
+
+````java
+int idade = 30;
+System.out.printf("Idade: %d anos\n", idade);
+````
+📤 Saída:
+
+````cmd
+Idade: 30 anos
+````
+
+🧩 Principais marcadores de formatação
+| Marcador | Tipo de dado              | Exemplo de uso           |
+| -------- | ------------------------- | ------------------------ |
+| `%d`     | Inteiros (`int`)          | `%d`, `%5d`, `%03d`      |
+| `%f`     | Reais (`float`, `double`) | `%.2f`, `%10.3f`         |
+| `%s`     | Texto (`String`)          | `%s`, `%20s`, `%-20s`    |
+| `%c`     | Caracter (`char`)         | `%c`                     |
+| `%b`     | Booleano                  | `%b`                     |
+| `%%`     | Porcentagem (%)           | `%%` exibe o símbolo `%` |
+
+🎯 Exemplos práticos
+1. Números inteiros
+````java
+int a = 5, b = 123;
+System.out.printf("Valor A: %d | Valor B: %05d\n", a, b);
+````
+📤 Saída:
+
+````cmd
+Valor A: 5 | Valor B: 00123
+````
+2. Números com ponto flutuante
+````java
+double nota = 8.6789;
+System.out.printf("Nota: %.2f\n", nota);
+````
+
+📤 Saída:
+
+````cmd
+Nota: 8.68
+````
+🔹 %.2f exibe o número com 2 casas decimais
+🔹 %10.2f reserva 10 posições no total, com 2 casas decimais
+
+3. Texto alinhado
+````java
+String nome = "Maria";
+System.out.printf("Nome: [%10s]\n", nome);   // Alinhado à direita
+System.out.printf("Nome: [%-10s]\n", nome);  // Alinhado à esquerda
+````
+
+📤 Saída:
+
+````cmd
+
+Nome: [     Maria]
+Nome: [Maria     ]
+````
+
+4. Múltiplos valores
+````java
+String produto = "Café";
+double preco = 7.5;
+int qtd = 2;
+
+System.out.printf("Produto: %s | Preço: R$ %.2f | Qtde: %d\n", produto, preco, qtd);
+````
+
+📤 Saída:
+
+````cmd
+Produto: Café | Preço: R$ 7.50 | Qtde: 2
+````
 </details>
 
 </details>
+
 ## 🧠 Conhecimentos Trabalhados:
+
 <details>
  <summary>Ver mais</summary>
+ 
 - 1. Sistema Gerenciador de Banco de Dados (SGBD)
 	- 1.1. Definição
 	- 1.2. Tipos
