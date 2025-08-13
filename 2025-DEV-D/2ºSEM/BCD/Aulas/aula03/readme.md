@@ -1,4 +1,4 @@
-# 👨🏻‍💻 Técnico em Desenvolvimento de Sistemas - TURMA DEV-Clarios
+# 👨🏻‍💻 Técnico em Desenvolvimento de Sistemas - TURMA MANGAL DEV-D 2025
 ## 🤖 BANCO DE DADOS - Aula 03 - Tipos de Atributos e Entidades
 |Objetivo:|
 |-|

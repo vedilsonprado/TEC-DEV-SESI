@@ -1,4 +1,4 @@
-# 👨🏻‍💻 Técnico em Desenvolvimento de Sistemas - TURMA DEV-Clarios
+# 👨🏻‍💻 Técnico em Desenvolvimento de Sistemas - TURMA MANGAL DEV-D 2025
 ## 🤖 BANCO DE DADOS - Aula 01 - Introdução a Banco de Dados
 |Objetivo:|
 |-|
