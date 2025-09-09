@@ -18,6 +18,9 @@
 - Quando pensamos em um **carro**, nos importamos com volante, motor e rodas, mas não com cada detalhe interno da injeção eletrônica.  
 
 ### Classe e Objeto
+
+---
+
 - **Classe:** modelo/base que define os atributos e comportamentos.  
 - **Objeto:** instância concreta da classe.  
 
@@ -58,6 +61,8 @@ public class Main {
 ````
 ![Diferentes objetos, mesma classe](../../assets/ObjetoInstanciado.png)
 
+---
+
 ### Construtor
 
 **Definição:** Método especial chamado automaticamente ao criar um objeto.
@@ -78,6 +83,8 @@ class Ninja {
     }
 }
 ````
+
+---
 
 ### A Classe `Main`
 **Definição:**  
@@ -168,6 +175,8 @@ class Ninja {
 }
 ````
 
+---
+
 - Agora a instanciação do objeto:
 ```java
 public class Main {
@@ -185,6 +194,9 @@ public class Main {
     }
 }
 ````
+
+---
+
 ### O que é o `this`?
 **Definição:** Palavra-chave em Java que faz referência ao **próprio objeto atual** da classe.  
 Ela é usada principalmente para:  
@@ -208,3 +220,40 @@ class Ninja {
     }
 }
 ````
+
+
+---
+
+## Conhecimentos Trabalhados
+- 4. Programação orientada a objetos
+	- 4.1. Definição
+	- 4.2. Pacotes
+	- 4.3. Classes
+		- 4.3.4. Atributos
+		- 4.3.5. Métodos
+		- 4.3.6. Modificadores de acesso (encapsulamento)
+	- 4.4. Objetos
+- 5. Documentação
+	- 5.1. Diagrama de classes
+
+---
+
+## Capacidade Técnica Desenvolvida
+- 1. Utilizar o paradigma da programação orientada a objetos
+- 2. Elaborar diagramas de classe  
+- 3. Aplicar técnicas de código limpo (clean code) 
+
+### Critérios Críticos trabalhados:
+- Distinguiu corretamente as entidades, atributos e métodos do sistema, demonstrando a compreensão do domínio na utilização de cada um.
+- Criou diagramas de classe UML, representando as entidades do sistema e seus relacionamentos (herança, agregação, composição)
+- Aplicou práticas de clean code no código Java, demonstrando a capacidade de escrever código legível, organizado e de acordo com um guia de estilo.
+
+### Critérios Desejáveis trabalhados:
+- Implementou as classes das entidades em Java, incluindo atributos, construtores e métodos básicos, demonstrando a capacidade de traduzir o modelo conceitual em código.
+- Justificou as escolhas de modelagem e os tipos de relacionamentos utilizados nos diagramas de classe, demonstrando a compreensão dos conceitos e sua aplicação no contexto do sistema. 
+- Analisou um trecho de código Java com problemas de clean code e propõe soluções para refatorar o código, demonstrando a capacidade de identificar e corrigir problemas de legibilidade e organização. 
+
+---
+
+## Para Saber Mais
+📑 [Slides Aula 03](../aula03/aula03.pdf)

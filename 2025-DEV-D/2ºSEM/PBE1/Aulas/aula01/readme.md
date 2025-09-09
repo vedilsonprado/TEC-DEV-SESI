@@ -1119,27 +1119,27 @@ Produto: Café | Preço: R$ 7.50 | Qtde: 2
 <details>
  <summary>Ver mais</summary>
  
-- 1. Sistema Gerenciador de Banco de Dados (SGBD)
+- 1. Ambiente de desenvolvimento web
 	- 1.1. Definição
-	- 1.2. Tipos
-		- 1.2.1.Relacional
-		- 1.2.2.Não relacional
+	- 1.2. Histórico
 	- 1.3. Características
-	- 1.5. Instalação e configuração
+	- 1.4. Ambiente de desenvolvimento
+		- 1.4.1. Instalação e configuração
+		- 1.4.2. Recursos e interfaces
+		- 1.4.3. Gerenciamento de dependências
 </details>
 
 ## 🧑🏻‍🎓Capacidade técnica trabalhada:
 <details>
  <summary>Ver mais</summary>
 
-- 1. Identificar as características de banco de dados relacionais e não-relacionais
-- 2. Configurar o ambiente para utilização de banco de dados relacional
+5. Preparar o ambiente necessário ao desenvolvimento back-end para a plataforma web
 
 ### Critérios Críticos trabalhados:
- - Distinguir com clareza os conceitos fundamentais e estruturais características de um banco de dados relacional e um não-relacional;
+- Configurou corretamente o ambiente de desenvolvimento.
 
 ### Critérios Desejáveis trabalhados:
-- Aplicar os conhecimentos adquiridos em cenários práticos escolhendo o tipo de banco de dados mais apropriado para os diferentes contextos;
+- Documentou os passos de configuração, explicando a função de cada componente e como eles interagem.
 
 </details>
 

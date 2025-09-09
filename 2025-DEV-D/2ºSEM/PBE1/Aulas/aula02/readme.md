@@ -99,12 +99,8 @@ Comportamentos ou ações que um objeto pode realizar.
 	- 4.1. Definição
 	- 4.2. Pacotes
 	- 4.3. Classes
-		- 4.3.1. Abstrata
-		- 4.3.2. Interna
-		- 4.3.3. Anônima
 		- 4.3.4. Atributos
 		- 4.3.5. Métodos
-		- 4.3.6. Modificadores de acesso (encapsulamento)
 	- 4.4. Objetos
 - 5. Documentação
 	- 5.1. Diagrama de classes
@@ -129,5 +125,4 @@ Comportamentos ou ações que um objeto pode realizar.
 ---
 
 ## Para Saber Mais
-🎥 Video Aula  
 📑 [Slides Aula 02](../aula02/02-Introducao-a-POO.pdf)
